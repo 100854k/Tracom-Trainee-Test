@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+ float length, width, area;
+ cout<< "input length";
+ cin>> length;
+ cout<< "input width";
+ cin>> width;
+ area=length*width;
+ cout<< "The area is:";
+ cout<< area;
+ return 0;
+}
